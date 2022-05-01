@@ -23,7 +23,10 @@ class SigninWindow(BoxLayout):
             else:  
                 info.text = '[color=#FF0000]Invalid Username and Password[/color]'  
   
-  
+
+class new():
+    def __init__(self) -> None:
+        pass
   
 class SigninApp(App):  
     def build(self):  
